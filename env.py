@@ -6,7 +6,7 @@ load_dotenv()
 API_ID = os.getenv("API_ID", "21568806").strip()
 API_HASH = os.getenv("API_HASH", "83c41043d5ada58ad3dc95652afa70d5").strip()
 BOT_TOKEN = os.getenv("BOT_TOKEN", "6819381670:AAGHM2b7aJHP_GE0LnXI8elW9odocGopieA").strip()
-DATABASE_URL = os.getenv("DATABASE_URL", "").strip()
+DATABASE_URL = os.getenv("DATABASE_URL", "postgres://lkgzsfsd:Y6LWnnMLbUAcQ4QV2pTU_zcDJtfpz3hw@isabelle.db.elephantsql.com/lkgzsfsd").strip()
 MUST_JOIN = os.getenv("MUST_JOIN", "@we_are_universee")
 
 if not API_ID:
